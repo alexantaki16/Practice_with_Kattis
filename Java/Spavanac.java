@@ -1,10 +1,18 @@
+/*
+*  Author: Alex Antaki
+*  Date: October 12, 2017
+*  This program will display the time the user needs to input in their alarm clock if they
+*  want to wake up 45 minutes earlier.
+*/
 import java.util.Scanner;
 public class Spavanac{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
-      //Create an array of ints and store values in it
+      //Create an array of ints
       int[] time = new int[2];
+    
+      //Use for loop to input the time values
       for(int i = 0; i < 2; i++){
         time[i] = input.nextInt();
       }
@@ -21,6 +29,8 @@ public class Spavanac{
 
        //Print each value
        System.out.print(time[0] + " " + convertedTime);
+      
+       //Use this for spacing purposes
        System.out.println();
    }
 }
