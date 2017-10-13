@@ -1,3 +1,8 @@
+/*
+*  Author: Alex Antaki
+*  Date: October 12, 2017
+*  This program will figure out the missing value in the formula from the Faktor problem on Kattis.com
+*/
 import java.util.Scanner;
 public class Faktor{
   public static void main(String[] args){
@@ -16,6 +21,7 @@ public class Faktor{
     //Take the answer and round up
     formula += 1;
 
+    //Display the missing value in the formula
     System.out.println(formula);
   }
 }
