@@ -1,9 +1,14 @@
+/*
+*  Author: Alex Antaki
+*  Date: October 12, 2017
+*  This program will calculate whether it is worth it to advertise based off of expected revenues
+*/
 import java.util.Scanner;
 public class NastyHacks{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
-    //Create and store all in values
+    //Create and have the user input all values
     int cases = input.nextInt();
     int revWithoutAds = input.nextInt();
     int revWithAds = input.nextInt();
