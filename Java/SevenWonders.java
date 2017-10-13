@@ -1,3 +1,9 @@
+/*
+*  Author: Alex Antaki
+*  Date: October 12, 2017
+*  This program will take in the letters TCG and based off of the amount of each letter 
+*  and pairs available the score will be displayed.
+*/
 import java.util.Scanner;
 public class SevenWonders{
   public static void main(String[] args){
