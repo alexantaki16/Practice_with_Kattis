@@ -1,3 +1,8 @@
+/*
+*  Author: Alex Antaki
+*  Date: October 12, 2017
+*  This program will have the user input the nth iteration they wish to be displayed in the Fibonacci sequence
+*/
 import java.util.Scanner;
 public class Fib{
   public static void main(String[] args){
